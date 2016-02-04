@@ -85,6 +85,8 @@ CephBase
 
 * health(minion_id)
 
+::
+
   获取ceph集群的健康状况.
   返回值: health: dict, 包含如下key:
     'serverity': string, 健康级别
